@@ -9,10 +9,11 @@ with open(os.path.join(here, 'CHANGES.txt')) as f:
     CHANGES = f.read()
 
 requires = [
-    'pyramid',
-    'pyramid_jinja2',
-    'pyramid_debugtoolbar',
-    'waitress',
+    'pyramid == 2.0',
+    'pyramid_jinja2 == 2.8',
+    'pyramid_debugtoolbar == 4.9',
+    'waitress == 2.0.0',
+    'MarkupSafe == 2.0.1',
     ]
 
 tests_require = [
