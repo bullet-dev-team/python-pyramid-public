@@ -2,7 +2,7 @@
 
 This is a **public** python pyramid test app used for testing.
 
-## Configurations needed for your testing
+## Configurations needed for your testing.
 ```
 "Runtime": "python3",
 "BuildCommand": "python setup.py develop",
